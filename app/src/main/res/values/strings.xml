@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">YOLO11 MNN</string>
+    <string name="model_n">YOLO11n</string>
+    <string name="model_s">YOLO11s</string>
+    <string name="pick_image">相册选图</string>
+    <string name="camera_start">开启相机</string>
+    <string name="camera_stop">停止相机</string>
+    <string name="stats_idle">选择模型后，从相册选图或开启相机实时检测</string>
+    <!-- conf, iou -->
+    <string name="threshold_label">置信度 %1$.2f · IoU %2$.2f</string>
+    <!-- model, inferenceMs, count -->
+    <string name="stats_still">%1$s · 推理 %2$d ms · %3$d 个目标</string>
+    <!-- model, inferenceMs, fps, count -->
+    <string name="stats_live">%1$s · %2$d ms · %3$.1f FPS · %4$d 个目标</string>
+</resources>

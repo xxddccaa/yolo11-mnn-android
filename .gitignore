@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Native build
+.cxx/
+
+# OS
+.DS_Store
+
+# Reference clones and model build scratch (not part of the shipped project)
+_refs/
+models_build/
+*.pt
+*.onnx
