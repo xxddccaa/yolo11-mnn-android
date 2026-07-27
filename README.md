@@ -2,6 +2,19 @@
 
 基于 [MNN](https://github.com/alibaba/MNN) 推理引擎的 YOLO11 on-device 目标检测 Android demo，支持 **YOLO11n / YOLO11s 运行时切换**、**相册选图**与 **CameraX 实时检测**两种模式，检测阈值 App 内可调。
 
+![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)
+![ABI](https://img.shields.io/badge/ABI-arm64--v8a-blue)
+![MNN](https://img.shields.io/badge/MNN-3.6-orange)
+![License](https://img.shields.io/badge/License-Apache--2.0-green)
+
+## 效果
+
+| 检测结果（YOLO11n · 72ms · bus 93% + 4×person） | 主界面（模型切换 + 阈值滑块） |
+|:---:|:---:|
+| <img src="docs/demo_detection.png" width="300"/> | <img src="docs/demo_ui.png" width="300"/> |
+
+> 📦 直接安装体验：到 [Releases](https://github.com/xxddccaa/yolo11-mnn-android/releases/latest) 下载 APK（arm64-v8a，模型已内置，装完即用）。
+
 ## 特性
 
 - 🎯 **两个模型运行时切换**：YOLO11n（2.8 MB）/ YOLO11s（9.3 MB），一键切换看精度/速度差异
